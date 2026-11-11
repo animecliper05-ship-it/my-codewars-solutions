@@ -101,3 +101,7 @@ def get_grade(s1: int, s2: int, s3: int) -> str:
     if score >= 60: 
         return 'D' 
     return 'F'
+
+# Задача 22. Проверяет, совпадают ли первая и последняя буквы в названии животного и блюда.
+
+def feast(beast: str, dish: str) -> bool: return beast[0] == dish[0] and beast[-1] == dish[-1]
