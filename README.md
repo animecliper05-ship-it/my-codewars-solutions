@@ -75,3 +75,7 @@ def make_upper_case(s): return s.upper()
 
 def remove_exclamation_marks(s): return s.replace('!', '')
 
+# Задача 18. Считает, сколько пассажиров не поместится в автобус исходя из вместимости, занятых мест и очереди.
+
+def enough(cap, on, wait): return max(0, on + wait - cap)
+
