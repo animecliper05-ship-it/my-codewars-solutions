@@ -28,3 +28,8 @@ def square_sum(numbers):
 
 def number_to_string(num):
  return str(num)
+
+# задача7
+
+def bool_to_word(boolean):
+  return "Yes" if boolean else "No"
