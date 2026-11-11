@@ -71,3 +71,7 @@ def remove_char(s): return s[1:-1]
 
 def make_upper_case(s): return s.upper()
 
+# Задача 17. Удаляет все восклицательные знаки из переданной строки.
+
+def remove_exclamation_marks(s): return s.replace('!', '')
+
