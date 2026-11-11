@@ -151,3 +151,10 @@ def even_or_odd(number: int) -> str: return "Even" if number % 2 == 0 else "Odd"
 # Задача 29. Подставляет переданное имя в шаблонную строку приветствия.
 
 def greet(name: str) -> str: return f"Hello, {name} how are you doing today?"
+
+# Задача 30. Считает сумму всех элементов массива, исключая самое маленькое и самое большое значения.
+
+def sum_array(arr):
+   if not arr or len(arr) <= 2:
+    return 0
+    return sum(arr) - min(arr) - max(arr)
