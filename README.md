@@ -162,8 +162,8 @@ def greet(name: str) -> str: return f"Hello, {name} how are you doing today?"
 # задача 30
 
 def sum_array(arr):
-   if not arr or len(arr) <= 2:
-    return 0
+    if not arr or len(arr) <= 2:
+        return 0
     return sum(arr) - min(arr) - max(arr)
 
 # задача 31
@@ -197,7 +197,7 @@ def solution(string):
 
 # задача 37
 
-def sguare(number):
+def square(number):
     return number * number
 
 # задача 38 
