@@ -126,3 +126,8 @@ def bmi(weight: float, height: float) -> str:
     if bmi_value <= 30.0: 
         return "Overweight"
     return "Obese"
+
+# Задача 26. Вычисляет объём прямоугольного параллелепипеда по его длине, ширине и высоте.
+
+def get_volume_of_cuboid(length: float, width: float, height: float) -> float: return length * width * height
+    
