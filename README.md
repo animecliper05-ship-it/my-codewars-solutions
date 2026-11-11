@@ -147,3 +147,7 @@ def human_years_cat_years_dog_years(human_years: int) -> list:
 # Задача 28. Проверяет целое число и возвращает "Even" для чётного или "Odd" для нечётного.
 
 def even_or_odd(number: int) -> str: return "Even" if number % 2 == 0 else "Odd"
+
+# Задача 29. Подставляет переданное имя в шаблонную строку приветствия.
+
+def greet(name: str) -> str: return f"Hello, {name} how are you doing today?"
