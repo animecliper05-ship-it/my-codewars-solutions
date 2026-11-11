@@ -58,3 +58,7 @@ def double_char(s): return ''.join(char * 2 for char in s)
 
 def positive_sum(arr):
  return sum(x for x in arr if x > 0)
+
+# Задача 14. Принимает список чисел и возвращает новый список, где каждое число умножено на 2.
+
+def maps(a): return [x * 2 for x in a]
