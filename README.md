@@ -158,3 +158,9 @@ def sum_array(arr):
    if not arr or len(arr) <= 2:
     return 0
     return sum(arr) - min(arr) - max(arr)
+
+# Задача 31. Ищет приветствие на указанном языке в словаре и возвращает его (по умолчанию — на английском).
+
+DATABASE = { "english": "Welcome", "czech": "Vitejte", "danish": "Velkomst", "dutch": "Welkom", "estonian": "Tere tulemast", "finnish": "Tervetuloa", "flemish": "Welgekomen", "french": "Bienvenue", "german": "Willkommen", "irish": "Failte", "italian": "Benvenuto", "latvian": "Gaidits", "lithuanian": "Laukiamas", "polish": "Witamy", "spanish": "Bienvenido", "swedish": "Valkommen", "welsh": "Croeso" }
+
+def greet(language: str) -> str: return DATABASE.get(language, "Welcome")
