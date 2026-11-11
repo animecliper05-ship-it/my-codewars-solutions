@@ -53,3 +53,8 @@ def past(h, m, s): return (h * 3600 + m * 60 + s) * 1000
 # задача12
 
 def double_char(s): return ''.join(char * 2 for char in s)
+
+# задача13
+
+def positive_sum(arr):
+ return sum(x for x in arr if x > 0)
