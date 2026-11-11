@@ -66,3 +66,8 @@ def maps(a): return [x * 2 for x in a]
 # Задача 15. Удаляет первый и последний символы из переданной строки.
 
 def remove_char(s): return s[1:-1]
+
+# Задача 16. Переводит все буквы в строке в верхний регистр (заглавные).
+
+def make_upper_case(s): return s.upper()
+
