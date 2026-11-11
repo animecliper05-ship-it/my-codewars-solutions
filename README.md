@@ -109,3 +109,7 @@ def feast(beast: str, dish: str) -> bool: return beast[0] == dish[0] and beast[-
 # Задача 23. Определяет, является ли переданное число чётным (возвращает True или False).
 
 def is_even(n: float) -> bool: return n % 2 == 0
+
+# Задача 24. Извлекает первую цифру из строки с возрастом (например, "5 years old") и возвращает её как целое число.
+
+def get_age(age_str: str) -> int: return int(age_str[0])
