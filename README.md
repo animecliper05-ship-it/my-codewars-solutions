@@ -86,3 +86,18 @@ def invert(lst): return [-x for x in lst]
 # Задача 20. Проверяет количество оборотов обруча и возвращает мотивационное сообщение (порог — 10 раз).
 
 def hoop_count(n: int) -> str: return "Great, now move on to tricks" if n >= 10 else "Keep at it until you get it"
+
+# Задача 21. Вычисляет среднее арифметическое трёх оценок и возвращает итоговую буквенную оценку (A, B, C, D или F).
+
+def get_grade(s1: int, s2: int, s3: int) -> str:
+    score = (s1 + s2 + s3) / 3
+
+    if score >= 90: 
+        return 'A'
+    if score >= 80: 
+        return 'B'
+    if score >= 70: 
+        return 'C'
+    if score >= 60: 
+        return 'D' 
+    return 'F'
