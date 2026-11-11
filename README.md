@@ -79,3 +79,6 @@ def remove_exclamation_marks(s): return s.replace('!', '')
 
 def enough(cap, on, wait): return max(0, on + wait - cap)
 
+# Задача 19. Меняет знак каждого числа в списке на противоположный (положительные на отрицательные и наоборот).
+
+def invert(lst): return [-x for x in lst]
