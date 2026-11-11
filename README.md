@@ -33,3 +33,7 @@ def number_to_string(num):
 
 def bool_to_word(boolean):
   return "Yes" if boolean else "No"
+
+# задача8
+
+def hero(bullets, dragons): return bullets >= dragons * 2
