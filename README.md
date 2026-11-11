@@ -29,18 +29,18 @@ def square_sum(numbers):
   return sum(x**2 for x in numbers)
 
 
-#задача6
+# задача6
 
 def number_to_string(num):
  return str(num)
 
 
-#задача7
+# задача7
 
 def bool_to_word(boolean):
   return "Yes" if boolean else "No"
 
-#задача8
+# задача8
 
 def hero(bullets, dragons): return bullets >= dragons * 2
 
@@ -61,7 +61,7 @@ def past(h, m, s): return (h * 3600 + m * 60 + s) * 1000
 
 def double_char(s): return ''.join(char * 2 for char in s)
 
-#задача13
+# задача13
 
 def positive_sum(arr):
  return sum(x for x in arr if x > 0)
@@ -74,7 +74,7 @@ def maps(a): return [x * 2 for x in a]
 
 def remove_char(s): return s[1:-1]
 
-#задача16
+# задача16
 
 def make_upper_case(s): return s.upper()
 
@@ -86,15 +86,15 @@ def remove_exclamation_marks(s): return s.replace('!', '')
 
 def enough(cap, on, wait): return max(0, on + wait - cap)
 
-#задача19
+# задача19
 
 def invert(lst): return [-x for x in lst]
 
-#задача20
+# задача20
 
 def hoop_count(n: int) -> str: return "Great, now move on to tricks" if n >= 10 else "Keep at it until you get it"
 
-#задача21
+# задача21
 
 def get_grade(s1: int, s2: int, s3: int) -> str:
     score = (s1 + s2 + s3) / 3
@@ -114,7 +114,7 @@ def get_grade(s1: int, s2: int, s3: int) -> str:
 
 def feast(beast: str, dish: str) -> bool: return beast[0] == dish[0] and beast[-1] == dish[-1]
 
-#задача23
+# задача23
 
 def is_even(n: float) -> bool: return n % 2 == 0
 
@@ -122,7 +122,7 @@ def is_even(n: float) -> bool: return n % 2 == 0
 
 def get_age(age_str: str) -> int: return int(age_str[0])
 
-#задача25
+# задача25
 
 def bmi(weight: float, height: float) -> str:
     bmi_value = weight / (height ** 2)
@@ -135,7 +135,7 @@ def bmi(weight: float, height: float) -> str:
         return "Overweight"
     return "Obese"
 
-#задача26
+# задача26
 
 def get_volume_of_cuboid(length: float, width: float, height: float) -> float: return length * width * height
 
@@ -166,7 +166,7 @@ def sum_array(arr):
     return 0
     return sum(arr) - min(arr) - max(arr)
 
-## задача 31
+# задача 31
 
 DATABASE = { "english": "Welcome", "czech": "Vitejte", "danish": "Velkomst", "dutch": "Welkom", "estonian": "Tere tulemast", "finnish": "Tervetuloa", "flemish": "Welgekomen", "french": "Bienvenue", "german": "Willkommen", "irish": "Failte", "italian": "Benvenuto", "latvian": "Gaidits", "lithuanian": "Laukiamas", "polish": "Witamy", "spanish": "Bienvenido", "swedish": "Valkommen", "welsh": "Croeso" }
 
@@ -176,7 +176,7 @@ def greet(language: str) -> str: return DATABASE.get(language, "Welcome")
 
 def simple_multiplication(number: int) -> int: return number * 8 if number % 2 == 0 else number * 9
 
-#задача 33
+# задача 33
 
 def string_to_number(s: str) -> int:
  return int(s)
@@ -185,7 +185,7 @@ def string_to_number(s: str) -> int:
 
 def goals(la_liga: int, copa_del_rey: int, champions: int) -> int: return la_liga + copa_del_rey + champions
 
-#задача 35
+# задача 35
 
 def repeat_str(repeat: int, string: str) -> str:
   return string * repeat
