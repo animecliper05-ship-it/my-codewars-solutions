@@ -41,3 +41,7 @@ def hero(bullets, dragons): return bullets >= dragons * 2
 # задача9
 
 def century(year): return math.ceil(year / 100)
+
+# задача10
+
+def boolean_to_string(b): return str(b)
