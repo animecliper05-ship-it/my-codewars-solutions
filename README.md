@@ -131,3 +131,15 @@ def bmi(weight: float, height: float) -> str:
 
 def get_volume_of_cuboid(length: float, width: float, height: float) -> float: return length * width * height
     
+
+# Задача 27. Переводит возраст человека в годы жизни кошки и собаки и возвращает список из трёх значений.
+
+def human_years_cat_years_dog_years(human_years: int) -> list:
+    if human_years == 1: 
+        return [1, 15, 15] 
+    if human_years == 2: 
+        return [2, 24, 24]
+        
+    cat_years = 24 + (human_years - 2) * 4
+    dog_years = 24 + (human_years - 2) * 5
+    return [human_years, cat_years, dog_years]
