@@ -9,3 +9,8 @@ def are_you_playing_banjo(name):
         return name + " plays banjo" 
     else: 
         return name + " does not play banjo"
+
+
+# задача3
+
+def abbrev_name(name): return '.'.join(word[0].upper() for word in name.split(' '))
