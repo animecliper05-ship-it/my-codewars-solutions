@@ -37,3 +37,7 @@ def bool_to_word(boolean):
 # задача8
 
 def hero(bullets, dragons): return bullets >= dragons * 2
+
+# задача9
+
+def century(year): return math.ceil(year / 100)
