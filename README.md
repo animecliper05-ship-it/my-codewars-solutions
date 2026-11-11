@@ -45,3 +45,7 @@ def century(year): return math.ceil(year / 100)
 # задача10
 
 def boolean_to_string(b): return str(b)
+
+# Задача11
+
+def past(h, m, s): return (h * 3600 + m * 60 + s) * 1000
