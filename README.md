@@ -23,3 +23,8 @@ def zero_fuel(distance_to_pump, mpg, fuel_left): return fuel_left * mpg >= dista
 
 def square_sum(numbers):
   return sum(x**2 for x in numbers)
+
+# задача6
+
+def number_to_string(num):
+ return str(num)
