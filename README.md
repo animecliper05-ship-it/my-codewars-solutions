@@ -113,3 +113,16 @@ def is_even(n: float) -> bool: return n % 2 == 0
 # Задача 24. Извлекает первую цифру из строки с возрастом (например, "5 years old") и возвращает её как целое число.
 
 def get_age(age_str: str) -> int: return int(age_str[0])
+
+# Задача 25. Рассчитывает индекс массы тела (ИМТ) по весу и росту и возвращает текстовую категорию состояния.
+
+def bmi(weight: float, height: float) -> str:
+    bmi_value = weight / (height ** 2)
+    
+    if bmi_value <= 18.5: 
+        return "Underweight"
+    if bmi_value <= 25.0: 
+        return "Normal"
+    if bmi_value <= 30.0: 
+        return "Overweight"
+    return "Obese"
