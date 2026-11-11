@@ -49,3 +49,7 @@ def boolean_to_string(b): return str(b)
 # Задача11
 
 def past(h, m, s): return (h * 3600 + m * 60 + s) * 1000
+
+# задача12
+
+def double_char(s): return ''.join(char * 2 for char in s)
