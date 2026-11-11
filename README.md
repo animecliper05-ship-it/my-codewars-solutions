@@ -143,3 +143,7 @@ def human_years_cat_years_dog_years(human_years: int) -> list:
     cat_years = 24 + (human_years - 2) * 4
     dog_years = 24 + (human_years - 2) * 5
     return [human_years, cat_years, dog_years]
+
+# Задача 28. Проверяет целое число и возвращает "Even" для чётного или "Odd" для нечётного.
+
+def even_or_odd(number: int) -> str: return "Even" if number % 2 == 0 else "Odd"
