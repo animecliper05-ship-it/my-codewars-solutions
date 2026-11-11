@@ -82,3 +82,7 @@ def enough(cap, on, wait): return max(0, on + wait - cap)
 # Задача 19. Меняет знак каждого числа в списке на противоположный (положительные на отрицательные и наоборот).
 
 def invert(lst): return [-x for x in lst]
+
+# Задача 20. Проверяет количество оборотов обруча и возвращает мотивационное сообщение (порог — 10 раз).
+
+def hoop_count(n: int) -> str: return "Great, now move on to tricks" if n >= 10 else "Keep at it until you get it"
