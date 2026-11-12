@@ -220,3 +220,10 @@ def people_with_age_drink(age):
         return "drink beer"
     else:
         return "drink whisky"
+
+        # Задача 42. Сортирует список строк по алфавиту, берёт первое слово и разделяет его буквы символами "***".
+
+def two_sort(array):
+    first_word = sorted(array)[0]
+    return "***".join(first_word)
+
