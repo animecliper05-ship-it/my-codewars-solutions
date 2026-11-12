@@ -242,3 +242,8 @@ def update_light(current):
 def sum_mix(arr):
     return sum(int(x) for x in arr)
 
+# Задача 45. Возвращает список всех чисел, кратных n, в диапазоне от n до указанного предела limit.
+
+def find_multiples(n, limit):
+    return list(range(n, limit + 1, n))
+
