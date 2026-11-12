@@ -198,3 +198,8 @@ def sguare(number):
 def goose_filter(birds):
     geese = {"African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"}
     return [bird for bird in birds if bird not in geese]
+
+# Задача 39. Вычисляет абсолютную разницу между объёмами двух кубоидов, заданных списками их сторон.
+
+def find_difference(a, b):
+    return abs((a[0] * a[1] * a[2]) - (b[0] * b[1] * b[2]))
