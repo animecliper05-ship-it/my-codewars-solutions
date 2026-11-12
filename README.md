@@ -168,3 +168,8 @@ def greet(language: str) -> str: return DATABASE.get(language, "Welcome")
 # Задача 32. Умножает число на 8, если оно чётное, и на 9, если нечётное.
 
 def simple_multiplication(number: int) -> int: return number * 8 if number % 2 == 0 else number * 9
+
+# Задача 33. Преобразует строку с числом в целое число.
+
+def string_to_number(s: str) -> int:
+ return int(s)
