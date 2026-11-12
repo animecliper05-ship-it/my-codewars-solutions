@@ -177,3 +177,9 @@ def string_to_number(s: str) -> int:
 # Задача 34. Суммирует количество голов футболиста в трёх разных турнирах.
 
 def goals(la_liga: int, copa_del_rey: int, champions: int) -> int: return la_liga + copa_del_rey + champions
+
+# Задача 35. Повторяет переданную строку заданное количество раз подряд.
+
+def repeat_str(repeat: int, string: str) -> str:
+  return string * repeat
+
