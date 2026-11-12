@@ -183,3 +183,7 @@ def goals(la_liga: int, copa_del_rey: int, champions: int) -> int: return la_lig
 def repeat_str(repeat: int, string: str) -> str:
   return string * repeat
 
+# Задача 36. Переворачивает переданную строку задом наперёд.
+
+def solution(string):
+    return string[::-1]
