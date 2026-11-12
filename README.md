@@ -227,3 +227,12 @@ def two_sort(array):
     first_word = sorted(array)[0]
     return "***".join(first_word)
 
+# Задача 43. Принимает текущий цвет светофора и возвращает следующий сигнал (зелёный -> жёлтый -> красный -> зелёный).
+
+def update_light(current):
+    transitions = {
+        "green": "yellow",
+        "yellow": "red",
+        "red": "green"
+    }
+    return transitions[current]
