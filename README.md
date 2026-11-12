@@ -187,3 +187,8 @@ def repeat_str(repeat: int, string: str) -> str:
 
 def solution(string):
     return string[::-1]
+
+# Задача 37. Возвращает квадрат переданного числа.
+
+def sguare(number):
+    return number * number
