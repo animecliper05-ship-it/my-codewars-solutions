@@ -208,3 +208,15 @@ def find_difference(a, b):
 
 def name_shuffler(str_):
     return ' '.join(str_.split()[::-1])
+
+# Задача 41. Определяет подходящий напиток по возрасту человека (до 14, до 18, до 21 и старше).
+
+def people_with_age_drink(age):
+    if age < 14:
+        return "drink toddy"
+    elif age < 18:
+        return "drink coke"
+    elif age < 21:
+        return "drink beer"
+    else:
+        return "drink whisky"
