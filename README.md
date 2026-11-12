@@ -173,3 +173,7 @@ def simple_multiplication(number: int) -> int: return number * 8 if number % 2 =
 
 def string_to_number(s: str) -> int:
  return int(s)
+
+# Задача 34. Суммирует количество голов футболиста в трёх разных турнирах.
+
+def goals(la_liga: int, copa_del_rey: int, champions: int) -> int: return la_liga + copa_del_rey + champions
