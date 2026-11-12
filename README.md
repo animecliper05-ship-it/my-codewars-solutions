@@ -164,3 +164,7 @@ def sum_array(arr):
 DATABASE = { "english": "Welcome", "czech": "Vitejte", "danish": "Velkomst", "dutch": "Welkom", "estonian": "Tere tulemast", "finnish": "Tervetuloa", "flemish": "Welgekomen", "french": "Bienvenue", "german": "Willkommen", "irish": "Failte", "italian": "Benvenuto", "latvian": "Gaidits", "lithuanian": "Laukiamas", "polish": "Witamy", "spanish": "Bienvenido", "swedish": "Valkommen", "welsh": "Croeso" }
 
 def greet(language: str) -> str: return DATABASE.get(language, "Welcome")
+
+# Задача 32. Умножает число на 8, если оно чётное, и на 9, если нечётное.
+
+def simple_multiplication(number: int) -> int: return number * 8 if number % 2 == 0 else number * 9
