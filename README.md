@@ -236,3 +236,9 @@ def update_light(current):
         "red": "green"
     }
     return transitions[current]
+
+    # Задача 44. Считает общую сумму элементов списка, в котором смешаны числа и строки с числами.
+
+def sum_mix(arr):
+    return sum(int(x) for x in arr)
+
