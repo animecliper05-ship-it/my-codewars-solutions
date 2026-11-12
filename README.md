@@ -203,3 +203,8 @@ def goose_filter(birds):
 
 def find_difference(a, b):
     return abs((a[0] * a[1] * a[2]) - (b[0] * b[1] * b[2]))
+    
+# Задача 40. Меняет местами имя и фамилию в строке, разделённой пробелом.
+
+def name_shuffler(str_):
+    return ' '.join(str_.split()[::-1])
